@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,700&display=swap');
+
+nav-brand{
+    font-family: 'Playfair Display', serif;
+}
+/* nav.css */
+
+.logo {
+    height: 100px; /* Adjust the height as needed */
+    /* Add any additional styling properties if necessary */
+    width: 100%;
+  }
+  
+  /* Add this if you want to align the logo vertically with the text in the button */
+  /* .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  CSS for Navbar */
+
+/* Center the collapsed menu */
+@media (max-width: 991px) {
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .navbar-collapse {
+    justify-content: center;
+  }
+}
+/* navbar.css */
+
+/* Custom styles for the toggle button */
+.navbar-toggler {
+  font-size: 1.5rem; /* Adjust the font size as needed */
+  padding: .5rem 1rem; /* Adjust the padding as needed */
+  border: none; /* Remove border */
+  background-color: transparent; /* Set background color to transparent */
+  color: #000; /* Set color of the toggler icon */
+}
+
+/* Optional: Add hover effect */
+.navbar-toggler:hover {
+  color: #fff; /* Change color on hover */
+  background-color: #000; /* Change background color on hover */
+}

@@ -1,0 +1,33 @@
+/* Study.css */
+html{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 62.5%;
+  }
+  
+  .container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8); /* Black background with some transparency */
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px; /* Add some margin to separate it from the bottom */
+    z-index: 3;
+  }
+  
+  .heading {
+    margin: 0;
+    color: #fff; /* White text color */
+    font-size: 5rem;
+    font-weight: bold;
+    
+  }
+  
+  .heading:hover{
+    color:#f7d49e; /* Orange hover effect on heading */
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+  }
+  
