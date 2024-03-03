@@ -1,1 +1,1 @@
-export const BASE_URL = "https://study-material-nnew.onrender.com"
+export const BASE_URL = "https://study-material-app.onrender.com"
