@@ -11,7 +11,7 @@ const Study_Material = () => {
         <div className="container-fluid">
           <div className="p-3 m-5 border border-3 border rounded-2 d-flex align-items-center justify-content-center align-items-center bg-dark text-light p-4 rounded-3 study-material-container">
             <Link to="/material" className="text-light text-decoration-none">
-              <h1 className="heading mb-4 w-100">Study Materials gffgh</h1>
+              <h1 className="heading mb-4 w-100">Study Materials </h1>
             </Link>
           </div>
         </div>
